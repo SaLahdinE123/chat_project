@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>one</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">One</div>
+            <div class="links">
+                <ul>
+                    <li>home</li>
+                    <li id="btn-login">login</li>
+                    <li id="btn-register">register</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="posts" id="posts"></div>
+        <button class="btn" id="btn-more">load more</button>
+        <div class="form" id="regester-form">
+            <label for="">name</label>
+            <input type="text" name="name" id="name">
+            <label for="">user name</label>
+            <input type="text" name="user name" id="user-name">
+            <label for="">email</label>
+            <input type="email" id="email">
+            <label for="">password</label>
+            <input type="password" name="pass" id="pass">
+            <button type="submit" id="btn-regester">regester</button>
+        </div>
+        <div class="form" id="login-form">
+            <label for="">user name</label>
+            <input type="text" name="user name" id="user-name">
+            <label for="">password</label>
+            <input type="password" name="pass" id="pass">
+            <button type="submit" id="btn-login">login</button>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
